@@ -29,6 +29,7 @@ cc_binary(
         ":helloworld_cc_grpc",
         "//external:gflags",
         "//external:glog",
+        "//external:gperftools",
         "@com_google_absl//absl/strings:strings",
         "@com_github_grpc_grpc//:grpc++",
     ],

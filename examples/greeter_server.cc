@@ -25,7 +25,7 @@
 #include <gflags/gflags.h>
 #include <glog/logging.h>
 
-#include "example/helloworld.grpc.pb.h"
+#include "examples/helloworld.grpc.pb.h"
 
 using grpc::Server;
 using grpc::ServerBuilder;
